@@ -1,0 +1,76 @@
+* {
+  font-family: "Farro", sans-serif;
+}
+main .container {
+  padding: 3rem 0;
+}
+body {
+  min-height: 100vh;
+}
+form {
+  width: 50%;
+  margin: auto;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: var(--bs-navbar-active-color);
+  border-bottom: 2px solid red;
+  font-weight: bold;
+}
+.video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: white;
+  text-align: center;
+  width: 90%;
+}
+.content h1 {
+  font-size: 100px;
+}
+.bookingDetails {
+  width: 50%;
+  margin: auto;
+}
+table {
+  border: 1px solid gray;
+  border-collapse: collapse;
+}
+th {
+  background-color: rgb(93, 195, 195) !important;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+.Pass {
+  color: rgb(130, 194, 34) !important;
+}
+.Fail {
+  color: rgb(173, 2, 2) !important;
+}
+input {
+  /* border: 1px solid red !important; */
+}
+
+button {
+  background-color: red !important;
+  color: white !important;
+  border: none !important;
+}

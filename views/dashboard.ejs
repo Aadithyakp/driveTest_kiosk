@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('layouts/head'); %>
+  <body>
+    <%- include('layouts/header'); %>
+    <main>
+      <div class="video-container">
+        <video autoplay muted loop>
+          <source src="assets/bg.mp4" type="video/mp4" />
+          <!-- Include other video sources here for cross-browser compatibility -->
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="content fade-in">
+        <h1 class="name">Dashboard</h1>
+        <h2>Official Drive Test Kiosk</h2>
+      </div>
+    </main>
+  </body>
+</html>
